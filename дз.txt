@@ -1,0 +1,201 @@
+1.1
+<&php
+$a=5;
+$b=7;
+echo $a+$b;
+echo $a*$b;
+?>
+
+
+1.2
+<&php
+$a=4;
+$b=6;
+echo $a*$a+$b*$b;
+?>
+
+1.3
+<&php
+$a=3;
+$b=5;
+$c=8;
+echo ($a+$b+$c)/3;
+?>
+
+1.4
+<&php
+$x=2;
+$y=6;
+$z=9;
+$a=$x+1;
+$b=4-2;
+$c=$z-2*($x*$x)+$y*$y;
+echo $a*$b*$c;
+?>
+
+1.5
+<&php
+$a=4;
+$b=8;
+$c=3;
+echo ($a+$b)/$c;
+echo ($a+$c)/$b;
+echo ($b+$c)/$a;
+?>
+
+1.6
+<?php 
+$a=readline();
+$b=$a%10;
+$c=(($a%100)-$b)/10;
+$d=($a-($c*10)-$b)/100;
+echo $b+$c+$d;
+?>
+
+
+
+
+
+2.1
+<?php
+$a=15;
+if($a>10)
+$a=$a+100;
+else
+$a=$a-30;
+?>
+
+2.2
+<?php
+$a=8;
+if($a/2==0)
+$a=$a/2;
+else
+$a=$a*3;
+?>
+
+2.3
+<?php
+$a=readline();
+if($a>50)
+echo $a*$a;
+elseif($a>10 and $a<30)
+echo "0";
+else echo "Ошибка";
+?>
+
+2.4
+<?php
+$a=15;
+$b=4;
+if($a>$b)
+echo $a;
+else echo $b;
+?>
+
+2.5
+<?php
+$a=19;
+$b=143;
+if($a-$b>99 || $b-$a>99) echo "Да";
+else echo "Нет";
+?>
+
+2.6
+<?php
+$a=readline();
+$b=readline();
+if($a-$b<20 || $b-$a,20) echo "Да";
+else echo "Нет";
+?>
+
+2.7
+<?php
+$a=readline();
+if ($a[0]>=$a[1] && $a[0]>=$a[2] && $a[1]>=$a[2]) {
+    echo $a[0].$a[1].$a[2];
+}elseif ($a[1]>=$a[0] && $a[1]>=$a[2] && $a[0]>=$a[2]) {
+    echo $a[1].$a[0].$a[2];
+}elseif ($a[2]>=$a[0] && $a[2]>=$a[1] && $a[0]>=$a[1]) {
+    echo $a[2].$a[0].$a[1];
+}elseif ($a[2]>=$a[0] && $a[2]>=$a[1] && $a[1]>=$a[0]) {
+    echo $a[2].$a[1].$a[0];
+}
+?>
+
+2.8
+<?php
+$a=readline();
+if($a=="1")
+echo "Понедельник"
+elseif($a=="2")
+echo "Вторник";
+elseif($a=="3")
+echo "Среда";
+elseif($a=="4")
+echo "Четверг";
+elseif($a=="5")
+echo "Пятница";
+elseif($a=="6")
+echo "Суббота";
+elseif($a=="7")
+echo "Воскресенье";
+?>
+
+2.9
+<?php
+$a=readline();
+if($a>80)
+echo "Здравтсвуйте уважаемый!";
+else echo "Успехов!";
+?>
+
+
+
+3.1
+<?php
+$arr[0] = 'Привет';
+$arr[1] = 'Мир';
+$arr[2] = '!';
+echo "$arr[0]$arr[1]$arr[2]";
+?>
+
+3.2
+<?php
+$arr[0] = 'Привет';
+$arr[1] = 'Мир';
+$arr[2] = '!';
+$text = "$arr[0]+$arr[1]+$arr[2]";
+echo $text;
+?>
+
+3.3
+<?php
+$arr= array[Привет,мир,!];
+$arr[0]="Пока";
+echo "$arr";
+?>
+
+3.4
+<?php
+$arr= arra[1,"",2,"","",3];
+foreach ($arr as $value)
+ {
+  if($arr=="")
+  {}
+  else $arr2=$arr;
+ }
+echo $arr2;
+?>
+
+
+3.5
+<?php
+$arr=("Коля"=>"1000", "Вася"=>"500", "Петя"=>"200")
+echo $arr['Коля'];
+?>
+
+
+
+
+
